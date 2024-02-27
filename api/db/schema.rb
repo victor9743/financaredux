@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_27_000541) do
   create_table "financas", force: :cascade do |t|
     t.string "descricao"
     t.integer "tipo_entrada"
-    t.decimal "valor", precision: 8, scale: 2
+    t.float "valor"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

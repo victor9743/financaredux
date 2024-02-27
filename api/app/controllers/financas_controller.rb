@@ -44,7 +44,7 @@ class FinancasController < ApplicationController
       Financa.find(params[:id]).update(
         descricao: params[:descricao],
         tipo_entrada: params[:tipo_entrada],
-        valor: format_valor(params[:valor])
+        valor: formatar_valor(params[:valor])
       )
 
       render json: { message: "Item salvo com sucesso!"}, status: :ok
