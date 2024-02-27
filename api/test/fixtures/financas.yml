@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  descricao: MyString
+  tipo_entrada_integer: MyString
+  valor: 1.5
+  data_criacao: MyString
+
+two:
+  descricao: MyString
+  tipo_entrada_integer: MyString
+  valor: 1.5
+  data_criacao: MyString
